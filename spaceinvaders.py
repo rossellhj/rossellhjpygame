@@ -139,7 +139,7 @@ while not done:
                 left=True
             elif event.key == pygame.K_SPACE:
                 bullet=Block(BLUE, 5, 20)
-                bullet.rect.x = player.rect.x
+                bullet.rect.x = player.rect.x+7.5
                 bullet.rect.y = 680
                 all_sprites_list.add(bullet)
                 bullets_list.add(bullet)
